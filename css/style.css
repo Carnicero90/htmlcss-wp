@@ -24,7 +24,6 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: center top;
 }
 
 .image-section {
@@ -144,11 +143,11 @@ h1 {
 
 .col.big {
     width: 56%;
-    padding: 0 2%;
+    padding: 0 3%;
 }
 
 .col .image-section {
-    height: 15vh;
+    height: 18vh;
 }
 
 .col .text-content * {
