@@ -19,7 +19,6 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 .image-section {
     position: relative;
@@ -78,9 +77,6 @@ nav {
 header .image-section {
     height: 400px;
 }
-.col .image-section {
-    height: 120px;
-}
 .teaser {
     position: absolute;
     bottom: 5%;
@@ -130,10 +126,15 @@ h1  {
 
 .col.big {
     width: 56%;
-    margin: 0 2%;
+    padding: 0 2%;
 }
+.col .image-section {
+    height: 120px;
+}
+.col .text-content * {
+    margin-top: 5%;
 
-
+}
 /* END MAIN */
 
 /* FOOTER */
