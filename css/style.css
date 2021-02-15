@@ -122,10 +122,6 @@ h1 {
 
 /* /Section-description */
 
-.clearfix {
-    padding: 2% 0;
-}
-
 .clearfix::after {
     content: "";
     display: table;
@@ -133,7 +129,6 @@ h1 {
 }
 
 .col {
-    position: relative;
     float: left;
 }
 
