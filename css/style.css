@@ -33,6 +33,8 @@ img {
     border-right: 1px solid #e5e5e5;
     
 }
+
+/* Navbar */
 nav {
     padding: 4% 0;
 }
@@ -45,8 +47,8 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
-
 }
+/* /Navbar */
 
 .content {
     position: relative;
@@ -56,9 +58,13 @@ nav {
 
 .subheader {
     position: relative;
-
 }
-
+header .content {
+    height: 400px;
+}
+.col .content {
+    height: 120px;
+}
 .teaser {
     position: absolute;
     bottom: 5%;
@@ -69,26 +75,32 @@ nav {
 h1  {
     font-size: 140%;
 }
-h2 {
-    font-size: 140%;
-    font-weight: 900;
-}
+
 .layover {
     background-color: rgba(0,0,0,0.2);
     position: absolute;
     height: 100%;
     width: 100%;
-    bottom: 3px;
+    bottom: 0;
     left: 0;
 }
 
 .content-image {
     object-fit: cover;
-    height: 100%;
 }
 /* END HEADER */
 
 /* MAIN */
+
+/* Section-description */
+.section-description {
+    margin: 5% 0;
+}
+.section-description h2 {
+    font-size: 140%;
+    font-weight: 900;
+}
+/* /Section-description */
 
 .clearfix {
     padding: 2% 0;
@@ -114,12 +126,17 @@ h2 {
     margin: 0 2%;
 }
 
-.col img {
-    height: 120px;
-}
 
 /* END MAIN */
 
 /* FOOTER */
-
+footer {
+    text-align: center;
+    margin: 5% 0;
+}
+footer::after {
+    content: '\2665';
+    color: red;
+    font-size: 120%;
+}
 /* END FOOTER */
