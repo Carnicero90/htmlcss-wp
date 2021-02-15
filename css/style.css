@@ -15,8 +15,11 @@ body {
     margin: auto;
 }
 /* Common-image-properties */
-img {
+.content-image {
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+
 }
 .image-section {
     position: relative;
@@ -91,9 +94,7 @@ h1  {
 
 
 
-.content-image {
-    object-fit: contain;
-}
+
 /* END HEADER */
 
 /* MAIN */
