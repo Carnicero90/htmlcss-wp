@@ -40,7 +40,8 @@ body {
     bottom: 0;
     right: 0;
 }
-.image-section:hover .layover, .subheader:hover .layover{
+
+.image-section:hover .layover, .subheader:hover .layover {
     background-color: rgba(224, 65, 65, 0.2);
     cursor: pointer;
 }
@@ -66,12 +67,12 @@ body {
     padding-right: 3%;
     border-right: 1px solid #e5e5e5;
 }
-
 /* /Logo */
 
 /* Navbar */
 
 nav {
+    border-top: 1px solid #e5e5e5;
     padding: 4% 0;
 }
 
@@ -79,9 +80,10 @@ nav {
     list-style-type: none;
     display: inline-block;
     margin-right: 3%;
-    padding-bottom: 3%;   
+    padding-bottom: 3%;
 }
-.nav-list li:hover  {
+
+.nav-list li:hover {
     border-bottom: 1px solid rgb(118, 219, 118);
 }
 
@@ -91,7 +93,6 @@ nav {
     font-size: 75%;
     line-height: 100%;
 }
-
 
 /* /Navbar */
 
@@ -153,6 +154,7 @@ h1 {
 .col .image-section img {
     height: 18vh;
 }
+
 .col .text-content * {
     margin-top: 3vh;
 }
