@@ -1,4 +1,5 @@
 /* RESET */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,38 +8,48 @@
 }
 
 /* COMMON */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .wrapper {
     width: 70%;
     margin: auto;
 }
+
 /* Common-image-properties */
+
 .content-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center top;
 }
+
 .image-section {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
 }
+
 .layover {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     height: 100%;
     width: 100%;
     bottom: 0;
     left: 0;
 }
+
 /* /Common-image-properties */
 
 /* Common-text-properties */
+
 .grey-text {
     color: #878787;
 }
+
 /* /Common-text-properties */
 
 /* END COMMON */
@@ -46,37 +57,44 @@ body {
 /* HEADER */
 
 /* Logo */
+
 .logo {
     height: 3em;
     width: auto;
     padding-right: 3%;
-    border-right: 1px solid #e5e5e5;  
+    border-right: 1px solid #e5e5e5;
 }
+
 /* /Logo */
 
 /* Navbar */
+
 nav {
     padding: 4% 0;
 }
+
 .nav-list li {
     list-style-type: none;
     display: inline-block;
     margin-right: 3%;
 }
+
 .nav-link {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
 }
-/* /Navbar */
 
+/* /Navbar */
 
 .subheader {
     position: relative;
 }
+
 header .image-section {
-    height: 400px;
+    height: 45vh;
 }
+
 .teaser {
     position: absolute;
     bottom: 5%;
@@ -84,25 +102,25 @@ header .image-section {
     width: 60%;
     color: white;
 }
-h1  {
+
+h1 {
     font-size: 140%;
 }
-
-
-
 
 /* END HEADER */
 
 /* MAIN */
 
 /* Section-description */
+
 .section-description {
     margin: 5% 0;
 }
+
 .section-description h2 {
     font-size: 140%;
-    font-weight: 900;
 }
+
 /* /Section-description */
 
 .clearfix {
@@ -128,23 +146,28 @@ h1  {
     width: 56%;
     padding: 0 2%;
 }
-.col .image-section {
-    height: 120px;
-}
-.col .text-content * {
-    margin-top: 4vh;
 
+.col .image-section {
+    height: 15vh;
 }
+
+.col .text-content * {
+    margin-top: 3vh;
+}
+
 /* END MAIN */
 
 /* FOOTER */
+
 footer {
     text-align: center;
     margin: 5% 0;
 }
+
 footer::after {
     content: '\2665';
     color: red;
     font-size: 120%;
 }
+
 /* END FOOTER */
