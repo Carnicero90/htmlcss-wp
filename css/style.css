@@ -21,6 +21,7 @@ body {
 /* Common-image-properties */
 
 .content-image {
+    display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -99,7 +100,7 @@ nav {
     position: relative;
 }
 
-header .image-section {
+header .image-section img {
     height: 45vh;
 }
 
@@ -150,11 +151,9 @@ h1 {
     padding: 0 3%;
 }
 
-.col .image-section {
+.col .image-section img {
     height: 18vh;
 }
-/* per ragioni che non comprendo -e che chiederò a lezione-, se do l'altezza all'immagine mi si crea una sfasatura tra layover e immagine di circa 5px */
-
 .col .text-content * {
     margin-top: 3vh;
 }
